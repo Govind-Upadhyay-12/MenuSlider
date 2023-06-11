@@ -1,0 +1,166 @@
+body{
+    background-color: rgb(200, 234, 247)
+
+}
+.home-menu{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding: 5px 2px;
+}
+.second-menu{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding: 5px 2px;
+
+}
+.third-menu{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    padding: 5px 2px;
+
+
+}
+.firstline2{
+    gap: 2.5rem;
+    border: 2px solid black;
+    /* position: absolute; */
+    margin-top: 30px;
+}
+.firstline3{
+    gap: 2.5rem;
+    border: 2px solid black;
+    /* position: absolute; */
+    margin-top: 30px;
+
+}
+.sidestickybar{
+    /* border: 2px solid black; */
+    position: absolute;
+    margin-top: px;
+    height: 43.5rem;
+    left: 0px;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 50px;
+    border-radius: 5px ;
+
+  
+}
+.searchbar{
+    /* margin-left: 40%; */
+    width:20rem;
+    height: 2rem;
+    border-radius: 2px;
+    background-color: white;
+    padding-left: 20px;
+}
+.search{
+    background-color: white;
+   position: absolute;
+   margin-left: 40%;
+   width: 360px;
+   padding-left: 30px;
+   padding-top: 10px;
+   height: 50px;
+   border-radius: 10px;
+   position: relative;
+   
+    
+    
+}
+.img{
+    position: absolute;
+    border-radius: 40px;
+    /* margin-top: 10px; */
+    margin-left: 20rem;
+    margin-top: -2rem;
+}
+.maincontainer{
+    /* overflow-y: auto; */
+    margin-top: -80px;
+    /* border: 2px solid black; */
+
+    /* margin-top: 0.8rem; */
+    margin-left: 2.6rem;
+    background-color: white;
+    height: 43rem;
+    width: 270px;
+    transform: translate(0px);
+    
+    border-radius: 10px;
+    /* justify-content:  space-between; */
+}
+.editor{
+    margin-top: 3.7rem;
+    padding-left: 20px;
+}
+.setting{
+    margin-top: 10rem;
+    padding-left: 20px;
+}
+.li{
+    font-size: 22px;
+    margin-top: 24px;
+    /* position: absolute; */
+    /* gap: 8%; */
+    list-style: none;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+     font-weight: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    
+}
+.hed{
+    letter-spacing: 2.6px;
+    /* margin-top: -25px; */
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+.dashboard{
+    padding-left: 30px;
+    cursor: pointer;
+}
+.hed2{
+    /* position: absolute; */
+    /* margin-top: -40px; */
+    margin-top: -100px;
+    letter-spacing: 2.6px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.li:hover{
+    background-color: skyblue;
+    border-radius: 10px;
+    width: 150px;
+}
+.cross{
+    position: absolute;
+    margin-top: -660px;
+    margin-left: 230px;
+    cursor: pointer;
+}
+.cross:hover{
+    content: url("unlocked.png");
+    width: 40px;
+    
+    
+}
+.hed2:hover{
+    color: plum;
+    
+}
+.hed:hover{
+    color:plum;
+}
+.active{
+    transform: translate(-400px);
+}
+

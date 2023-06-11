@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Govind</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="stickyparent1"> -->
+    <div class="sidestickybar">
+      <!-- <div class="firstline1"> -->
+        <!-- <img src="quill-drawing-a-line.png" width="35px" height="20px"> -->
+        
+      <!-- </div> -->
+      <div class="home-menu" >
+        <img src="home.png" width="43pxpx" height="20px">
+        <img src="menu.png" width="43px" height="20px">
+
+      </div>
+      <!-- <div class="firstline2">
+        <img src="quill-drawing-a-line.png" width="35px" height="20px">
+
+      </div> -->
+      <div class="second-menu" >
+        <img src="folder.png" width="43px" height="20px">
+        <img src="upload.png" width="43px" height="20px">
+
+      </div>
+      <!-- <div class="firstline3">
+        <img src="quill-drawing-a-line.png" width="35px" height="20px">
+
+      </div> -->
+      <div class="third-menu">
+        <img src="flag.png" width="43px" height="20px">
+        <img src="award.png" width="43px" height="20px">
+        <img src="settings (2).png" width="43px" height="20px">
+      </div>
+      
+
+    </div>
+    </div>
+    <div class="search">
+    <input type="search" name="" id="" placeholder="Search" class="searchbar">
+    <div class="img-content">
+    <img src="WhatsApp Image 2023-06-11 at 17.53.09.jpg" class="img" width="35px">
+    </div>
+    </div>
+    <div class="maincontainer">
+        <div class="dashboard">
+            <h2 class="hed">DashBoard</h2>
+              <li class="li">
+                Overview
+              </li>
+             &nbsp;&nbsp;
+              <li class="li">All projects</li>
+        </div>
+        <div class="editor">
+            <h2 class="hed">Editor</h2>
+            <li class="li">New Projects</li>
+            &nbsp;
+            <li class="li">Upload New</li>
+        </div>
+        <div class="setting">
+            <h2 class="hed2">Setting</h2>
+            <li class="li">Notice Board</li>
+            <li class="li">Award</li>
+            <li class="li">Setting</li>
+        </div>
+        <div class="cross">
+            <img src="lock.png"width="40px" class="button">
+        </div>
+    </div>
+    <script>
+      let whole=document.querySelector(".sidestickybar")
+      let p=document.querySelector(".cross");
+      // console.log(p);
+      let body=document.querySelector(".maincontainer");
+      console.log(body.classList);
+      p.addEventListener("click",function(){
+        // // body.classList.toggle('.active')
+        // // console.log("hey")
+        body.style.transform="translate(-400px)"
+        whole.style.transform="translate(-7px)"
+        // whole.style.backgroundcolor="blue"
+
+      })
+    </script>
+    
+</body>
+</html>
